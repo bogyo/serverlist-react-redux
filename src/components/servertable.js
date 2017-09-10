@@ -132,7 +132,7 @@ render() {
 	        <thead className='table-header'>
 	          <tr>
 							<th className="number">No.</th>
-							<th>Modell</th>
+							<th>Model</th>
 		          <th>Ram</th>
 		          <th>HDD</th>
 						 	<th>Location</th>

@@ -24,12 +24,7 @@ export default class SliderInput extends Component {
 
 	handleInputChange(e){
 		const value = e.target.value;
-		console.log(e.target.value,'e.target.value');
-
 		const visibleValue = this.transformToVisibleValue(value);
-
-			console.log(visibleValue, 'visibleValue');
-
 
 		this.setState({ realValue: visibleValue, hiddenValue: value },
 			() => { this.props.handleInputChange(visibleValue); });
@@ -38,9 +33,6 @@ export default class SliderInput extends Component {
  	transformToVisibleValue(value){
 		const visibleValue = this.props.data[value];
 
-	//	console.log('visibleValue',  this.props.data[value - 1]);
-	//console.log('STORAGE ITEMS', this.props.data, this.props.data.length, this.props.data[index], index)
- //	return this.props.data[index];
 		return visibleValue;
 	}
 

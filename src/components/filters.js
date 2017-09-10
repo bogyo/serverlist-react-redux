@@ -82,11 +82,11 @@ class Filters extends Component {
 					{this.renderRamFilter()}
 				</div>
 				<div className="filter">
-					<p className="title">Harddisk type</p>
+					<p className="title">Location</p>
 					{this.renderLocationFilter()}
 				</div>
 				<div className="filter">
-					<p className="title">Location</p>
+					<p className="title">Harddisk type</p>
 					{this.renderDiskFilter()}
 				</div>
 				{this.state.applied && <div className="removeFilters">
