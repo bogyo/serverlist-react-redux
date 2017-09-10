@@ -5,7 +5,7 @@ import {
 
 
 export function fetchAllServerData(){
-  return fetch('/list');
+  return fetch('/api/list');
 }
 
 function requestServers() {

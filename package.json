@@ -27,9 +27,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://serverlist-nodejs.herokuapp.com",
-  "devDependencies": {
-    "fetch-mock": "^5.12.2",
-    "jest-fetch-mock": "^1.2.1"
+	"proxy": {
+    "/api": {
+      "target": "https://serverlist-nodejs.herokuapp.com",
+      "pathRewrite": {
+        "^/api": "/"
+      }
+    }
   }
+},
+	"devDependencies": {
+	  "fetch-mock": "^5.12.2",
+	  "jest-fetch-mock": "^1.2.1"
+	}
 }
