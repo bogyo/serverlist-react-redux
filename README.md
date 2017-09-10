@@ -12,14 +12,14 @@ https://serverlist-nodejs.herokuapp.com/list
 3. npm start (root dir)
 
 Start mock API:
-1. node index.js (root dir)
+1. node server.js (root dir)
 
 Browser should open: http://localhost:3000
 
 Local version works only together with mocked API.
 Change this behavior: change proxy target in package.json
 
-Deployment instructions to Heroku with create-react-app-buildpack available here: 
+Deployment instructions to Heroku with create-react-app-buildpack available here:
 https://github.com/mars/create-react-app-buildpack
 
 <b>Short Application introduction </b>
