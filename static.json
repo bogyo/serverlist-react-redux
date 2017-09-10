@@ -2,7 +2,7 @@
   "root": "build/",
   "proxies": {
     "/api/": {
-      "origin": "${API_URL}"
+      "origin": "https://serverlist-nodejs.herokuapp.com"
     }
   }
 }
