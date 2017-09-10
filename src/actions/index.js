@@ -5,7 +5,7 @@ import {
 
 
 export function fetchAllServerData(){
-  return fetch('https://react-table-with-filters.herokuapp.com/list');
+  return fetch('/api/list');
 }
 
 function requestServers() {
