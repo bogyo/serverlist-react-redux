@@ -7,14 +7,14 @@ https://serverlist-nodejs.herokuapp.com/list
 
 <b>Local install</b>
 
-1. clone the repo<br>
+1. clone this repo<br>
 
 <b>Start mock API Backend:</b><br>
 1. node server.js (root dir)
 
 <b>Start Frontend:</b><br>
-2. npm install (root dir)<br>
-3. npm start (root dir)<br>
+1. npm install (root dir)<br>
+2. npm start (root dir)<br>
 
 (Assuming that you already have node and npm installed on your machine)
 
@@ -32,8 +32,8 @@ App was built with create-react-app as application bootstrap.<br>
 
 Data is served with a small node-js (Express) based Backend.<br>
 List endpoint parse the excel file and send data as json (see in root dir/index.js).<br>
-Dev: https://github.com/bogyo/serverlist-nodejs<br>
-Deployed : https://serverlist-nodejs.herokuapp.com/list<br>
+Dev: see server.js at repository root<br>
+Deployed : https://github.com/bogyo/serverlist-nodejs => https://serverlist-nodejs.herokuapp.com/list<br>
 
 Frontend was built with React and Redux with Redux-thunk middleware.<br>
 The application is full responsive. It use one breakpoint to demonstrate the mobile view (480px).<br>
