@@ -62,17 +62,18 @@ SearchInput works with multiple data as well. (Should add multiple to select Tag
 
  Deployed files are under build directory. Entry point index.html.
 
- Testing:
-  Unit tests with Jest and enzyime.
-  Tests located in the same directory under __tests__ subfolder next to the tested module.
+ <b>Testing:</b><br>
+  Unit tests with Jest and enzyime.<br>
+  Tests located in the same directory under __tests__ subfolder next to the tested module.<br>
 
-  running tests npm test in root directory.
+  running tests npm test in root directory.<br>
 
-  Possible development plan:
-  - More tests
+  <b>Possible development plan:</b><br>
+  - More tests!!!
   - add more style for example use custom checkbox style.
+  - improve mobile view style.
   - using minimum slider as well.
   - Using sass/less
-  - add dropdown style with combining checkboxes to searchInput.
+  - add dropdown style with combining checkboxes to searchInput in multiple version.
   
   Please note: Heroku free sleeps in every 30 minutes. That's why the first loading of the page and the data is a bit slower (not the app itself.)
