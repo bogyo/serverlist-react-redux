@@ -12,7 +12,7 @@ https://serverlist-nodejs.herokuapp.com/list
 <b>Start mock API Backend:</b><br>
 1. node server.js (root dir)
 
-<b>Start Frontend</b><br>
+<b>Start Frontend:</b><br>
 2. npm install (root dir)<br>
 3. npm start (root dir)<br>
 
