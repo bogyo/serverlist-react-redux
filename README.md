@@ -7,14 +7,14 @@ https://serverlist-nodejs.herokuapp.com/list
 
 <b>Local install</b>
 
-1. clone the repo
+1. clone the repo<br>
 
-#Start mock API Backend:
+<b>Start mock API Backend:</b><br>
 1. node server.js (root dir)
 
-#Start Frontend
-2. npm install (root dir)
-3. npm start (root dir)
+<b>Start Frontend</b><br>
+2. npm install (root dir)<br>
+3. npm start (root dir)<br>
 
 (Assuming that you already have node and npm installed on your machine)
 
