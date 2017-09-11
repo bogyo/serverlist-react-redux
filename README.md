@@ -28,18 +28,18 @@ https://github.com/mars/create-react-app-buildpack
 
 <b>Short Application introduction </b>
 
-App was built with create-react-app as application bootstrap.
+App was built with create-react-app as application bootstrap.<br>
 
-Data is served with a small node-js (Express) based Backend.
-List endpoint parse the excel file and send data as json (see in root dir/index.js).
-In dev: https://github.com/bogyo/serverlist-nodejs
-In deployed : https://serverlist-nodejs.herokuapp.com/list
+Data is served with a small node-js (Express) based Backend.<br>
+List endpoint parse the excel file and send data as json (see in root dir/index.js).<br>
+Dev: https://github.com/bogyo/serverlist-nodejs<br>
+Deployed : https://serverlist-nodejs.herokuapp.com/list<br>
 
-Frontend was built with React and Redux with Redux-thunk middleware.
-The application is full responsive. It use one breakpoint to demonstrate the mobile view (480px).
-The application display the recieved data in a list. The user can apply filters on the list. I used frontend filters because they have better performance than requesting the backend all the time for data. The user can apply all filters together and can remove them together. (I added a remove filters button, which can be useful, when the filters not match for all data, for instance there is no 128gb ram in filter section. See filters section in the .xlsx file - there are servers with 128gb).
+Frontend was built with React and Redux with Redux-thunk middleware.<br>
+The application is full responsive. It use one breakpoint to demonstrate the mobile view (480px).<br>
+The application display the recieved data in a list. The user can apply filters on the list. I used frontend filters because they have better performance than requesting the backend all the time for data. The user can apply all filters together and can remove them together. (I added a remove filters button, which can be useful, when the filters not match for all data, for instance there is no 128gb ram in filter section. See filters section in the .xlsx file - there are servers with 128gb).<br>
 
-SearchInput works with multiple data as well. (Should add multiple to select Tag in SearchInput , please note the multiple version is not a dropdown style, only select tag)
+SearchInput works with multiple data as well. (Should add multiple to select Tag in SearchInput , please note the multiple version is not a dropdown style, only select tag)<br>
 
 - Reducers:
   - Servers
@@ -58,9 +58,9 @@ SearchInput works with multiple data as well. (Should add multiple to select Tag
  These are for displaying inputs and other elements only.
  - index.js - app bootstrap
  - style
-  Only css files here per components, no css-prepocessors. In a bigger application would be useful to add sass/less.
+  Only css files here per components, no css-prepocessors. In a bigger application would be useful to add sass/less.<br>
 
- Deployed files are under build directory. Entry point index.html.
+ Deployed files are under build directory. Entry point index.html.<br>
 
  <b>Testing:</b><br>
   Unit tests with Jest and enzyime.<br>
